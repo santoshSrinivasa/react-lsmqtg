@@ -2,7 +2,13 @@ import React from 'react';
 import {connect} from "react-redux";
 
 
-function mapStateToProps(state){
+/*function mapStateToProps(state){
+  return {
+    clickValue: state.details,
+  }
+}*/
+
+const mapStateToProps = (state) => {
   return {
     clickValue: state.details,
   }

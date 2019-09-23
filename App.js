@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from "react-redux";
 import ViewData from "./viewdata";
 
-function mapStateToProps(state){
+const mapStateToProps = (state) => {
   return {
     clickValue: state.details,
   }

@@ -1,7 +1,7 @@
 const globalState = {
   details:'',
 }
-function reducer(state = globalState,action) 
+const reducer = (state = globalState,action) =>
 {
   console.log("state value",state);
   console.log("action value",action);
