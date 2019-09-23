@@ -1,5 +1,5 @@
 const globalState = {
-  details:'',
+  details:'hello',
 }
 const reducer = (state = globalState,action) =>
 {
